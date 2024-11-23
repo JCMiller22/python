@@ -17,7 +17,6 @@ class Television:
     def mute(self):
         self.muted = not self.muted
 
-
     def channel_up(self):
         if self.status:
             if self.channel == self.MAX_CHANNEL:
